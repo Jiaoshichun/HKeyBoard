@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hKeyBoardTextColor">#444444</color>
+    <color name="hKeyBoard_bg_press">#dfdfdf</color>
+    <color name="hKeyBoardBackground">#dddddd</color>
+    <color name="hKeyBoardBackgroundAbc">#E3E7EE</color>
+    <color name="hKeyBoardDoneBackground">#108EE9</color>
+    <color name="hKeyBoardKeyBackgroundAbc">#C9CFD9</color>
+</resources>

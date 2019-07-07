@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HKeyboard ratioWH="0.52"
+           backgroundColor="@color/hKeyBoardBackgroundAbc"
+           horizontalSpacing="@dimen/HKeyBoard_5dp"
+           verticalSpacing="@dimen/HKeyBoard_10dp"
+           paddingLeft="@dimen/HKeyBoard_5dp"
+           keyBorderRadius="@dimen/HKeyBoard_3dp"
+           paddingRight="@dimen/HKeyBoard_5dp"
+           paddingTop="@dimen/HKeyBoard_10dp"
+           paddingBottom="@dimen/HKeyBoard_5dp"
+           keyTextSize="@dimen/HKeyBoard_normal_text_size"
+           keyTextColor="@color/hKeyBoardTextColor"
+           keyBackgroundColor="@color/hkeyboard_abc_key_bg">
+    <Row>
+        <Key code="113" value="q"/>
+        <Key code="119" value="w"/>
+        <Key code="101" value="e"/>
+        <Key code="114" value="r"/>
+        <Key code="116" value="t"/>
+        <Key code="121" value="y"/>
+        <Key code="117" value="u"/>
+        <Key code="105" value="i"/>
+        <Key code="111" value="o"/>
+        <Key code="112" value="p"/>
+    </Row>
+    <Row leftSpaceWeight="0.5" rightSpaceWeight="0.5">
+        <Key code="97" value="a"/>
+        <Key code="115" value="s"/>
+        <Key code="100" value="d"/>
+        <Key code="102" value="f"/>
+        <Key code="103" value="g"/>
+        <Key code="104" value="h"/>
+        <Key code="106" value="j"/>
+        <Key code="107" value="k"/>
+        <Key code="108" value="l"/>
+    </Row>
+    <Row>
+        <Key code="-1" drawableRes="@drawable/ic_shift_selector" weight="1.5"
+             keyBackgroundColor="@color/hKeyBoardKeyBackgroundAbc"/>
+        <Key code="122" value="z"/>
+        <Key code="120" value="x"/>
+        <Key code="99" value="c"/>
+        <Key code="118" value="v"/>
+        <Key code="98" value="b"/>
+        <Key code="110" value="n"/>
+        <Key code="109" value="m"/>
+        <Key code="-5" drawableRes="@drawable/ic_delete_abc_selector" weight="1.5"
+             keyBackgroundColor="@color/hKeyBoardKeyBackgroundAbc"/>
+    </Row>
+    <Row>
+        <Key code="-11" value="123" weight="1.5"
+             keyBackgroundColor="@color/hKeyBoardKeyBackgroundAbc"/>
+        <Key code="44" value=","/>
+        <Key code="38" value="空格" weight="5.0"
+             keyTextSize="@dimen/HKeyBoard_text_size_18"/>
+        <Key code="46" value="."/>
+        <Key code="-10" value="完成" weight="1.5"
+             keyBackgroundColor="@color/hKeyBoardDoneBackground"
+             keyTextColor="@android:color/white"
+             keyTextSize="@dimen/HKeyBoard_text_size_18"/>
+    </Row>
+
+
+</HKeyboard>

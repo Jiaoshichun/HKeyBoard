@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HKeyboard
+        ratioWH="0.52"
+        horizontalSpacing="@dimen/HKeyBoard_div"
+        verticalSpacing="@dimen/HKeyBoard_div"
+        backgroundColor="@color/hKeyBoardBackground"
+        paddingBottom="@dimen/HKeyBoard_1dp"
+        paddingTop="@dimen/HKeyBoard_2dp"
+        keyTextColor="@color/hKeyBoardTextColor"
+        keyBackgroundColor="@color/hkeyboard_number_key_bg"
+        keyTextSize="@dimen/HKeyBoard_normal_text_size">
+    <Row>
+        <Key code="49" value="1"/>
+        <Key code="50" value="2"/>
+        <Key code="51" value="3"/>
+    </Row>
+    <Row>
+        <Key code="52" value="4"/>
+        <Key code="53" value="5"/>
+        <Key code="54" value="6"/>
+    </Row>
+    <Row>
+        <Key code="55" value="7"/>
+        <Key code="56" value="8"/>
+        <Key code="57" value="9"/>
+    </Row>
+    <Row>
+        <Key code="55" value=""/>
+        <Key code="48" value="0"/>
+        <Key code="-5" drawableRes="@drawable/ic_del"/>
+    </Row>
+
+</HKeyboard>
